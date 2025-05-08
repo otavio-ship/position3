@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+/* Retângulo vermelho */
+.red-box {
+  width: 200px;
+  height: 150px;
+  background-color: red;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Retângulo verde-água */
+.green-box {
+  width: 150px;
+  height: 100px;
+  background-color: aquamarine;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Círculo azul no centro */
+.center-dot {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+/* Círculos ao redor */
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.top {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.right {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.yellow {
+  background-color: #ffffaa;
+}
+
+.black {
+  background-color: #2a0d0d;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue-light {
+  background-color: #a8ecff;
+}
